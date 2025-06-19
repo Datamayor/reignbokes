@@ -25,9 +25,9 @@ const lightSnacks = [
 ];
 
 const brunchTiers = [
-  { id: "brunch-silver", name: "Silver Brunch", price: "₦20,000", priceSuffix: "per head", tagline: "Effortless & Elegant", description: "A refined option for intimate celebrations and light morning gatherings.", features: ["2-course custom menu (starter + main)"], imageReplace: "Silver tier brunch setting with light dishes" },
-  { id: "brunch-gold", name: "Gold Brunch", price: "₦30,000", priceSuffix: "per head", tagline: "Balanced & Beautiful", description: "A polished, elevated setup for executive brunches, bridal showers, and formal events.", features: ["3-course custom menu", "Premium ingredients", "Themed setup options"], imageReplace: "Gold tier brunch setup with elaborate food display" },
-  { id: "brunch-platinum", name: "Platinum Brunch", price: "₦40,000", priceSuffix: "per head", tagline: "Luxury on a Plate", description: "A full-service luxury dining experience for VIP clients or special occasions.", features: ["4-course gourmet menu", "Dedicated server", "Luxury tableware & decor"], imageReplace: "Platinum tier luxury brunch experience with fine dining setup" },
+  { id: "brunch-silver", name: "Silver Brunch", price: "₦20,000", priceSuffix: "per head", tagline: "Effortless & Elegant", description: "A refined option for intimate celebrations and light morning gatherings.", features: ["2-course custom menu (starter + main)"], imageReplace: "https://plus.unsplash.com/premium_photo-1673581430690-0b42ab287ae9?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: "brunch-gold", name: "Gold Brunch", price: "₦30,000", priceSuffix: "per head", tagline: "Balanced & Beautiful", description: "A polished, elevated setup for executive brunches, bridal showers, and formal events.", features: ["3-course custom menu", "Premium ingredients", "Themed setup options"], imageReplace: "https://plus.unsplash.com/premium_photo-1673581430690-0b42ab287ae9?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: "brunch-platinum", name: "Platinum Brunch", price: "₦40,000", priceSuffix: "per head", tagline: "Luxury on a Plate", description: "A full-service luxury dining experience for VIP clients or special occasions.", features: ["4-course gourmet menu", "Dedicated server", "Luxury tableware & decor"], imageReplace: "https://plus.unsplash.com/premium_photo-1673581430690-0b42ab287ae9?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
 ];
 
 const ReignBites = () => {
@@ -94,7 +94,7 @@ const ReignBites = () => {
             >
               <Card className="h-full w-full card-hover overflow-hidden bg-card text-card-foreground border-border flex flex-col">
                 <div className="aspect-video w-full overflow-hidden border-b border-border">
-                  <img  alt={service.imageAlt} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="./public/images/reignpackage.png" />
+                  <img  alt={service.imageAlt} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://plus.unsplash.com/premium_photo-1686783007953-4fcb40669dd8?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                 </div>
                 <CardHeader className="pb-4">
                   <div className="mb-3">{service.icon}</div>
