@@ -55,7 +55,7 @@ const CorporateGiftingPage = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            <img  alt="Team receiving corporate gifts" className="rounded-xl shadow-xl w-full h-auto object-cover" src="/public/images/corporate gifting.png" />
+            <img  alt="Team receiving corporate gifts" className="rounded-xl shadow-xl w-full h-auto object-cover" src="./public/images/corporate gifting.png" />
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, x: 30 }}

@@ -94,7 +94,7 @@ const ReignBites = () => {
             >
               <Card className="h-full w-full card-hover overflow-hidden bg-card text-card-foreground border-border flex flex-col">
                 <div className="aspect-video w-full overflow-hidden border-b border-border">
-                  <img  alt={service.imageAlt} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="/public/images/reignpackage.png" />
+                  <img  alt={service.imageAlt} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="./public/images/reignpackage.png" />
                 </div>
                 <CardHeader className="pb-4">
                   <div className="mb-3">{service.icon}</div>
@@ -190,7 +190,7 @@ const ReignBites = () => {
             >
               <Card className={`h-full w-full card-hover overflow-hidden bg-card text-card-foreground border-border flex flex-col ${index === 1 ? 'premium-border' : ''}`}>
                 <div className="aspect-video w-full overflow-hidden border-b border-border">
-                  <img  alt={tier.name} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1595872018818-97555653a011" />
+                  <img  alt={tier.name} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1611601184963-9d1de9b79ff3?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                 </div>
                 <CardHeader className="pb-4 text-center bg-secondary/30 border-b border-border">
                   <CardTitle className={`text-xl font-semibold ${index === 1 ? 'gold-gradient-text' : 'text-primary'}`}>{tier.name}</CardTitle>

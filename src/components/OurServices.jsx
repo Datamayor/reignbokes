@@ -63,7 +63,7 @@ const OurServices = () => {
             >
               <Card className="h-full w-full card-hover overflow-hidden bg-card text-card-foreground border-border flex flex-col">
                 <div className="aspect-video w-full overflow-hidden border-b border-border">
-                  <img  alt={service.imageAlt} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="/public/images/reignbox.png" />
+                  <img  alt={service.imageAlt} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="./public/images/reignbox.png" />
                 </div>
                 <CardHeader className="pb-4">
                   <div className="mb-3">{service.icon}</div>

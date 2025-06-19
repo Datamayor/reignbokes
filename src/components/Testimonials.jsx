@@ -86,7 +86,7 @@ const Testimonials = () => {
                   <p className="text-lg mb-6 italic">"{testimonial.content}"</p>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center overflow-hidden">
-                      <img  alt={testimonial.name} className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1595872018818-97555653a011" />
+                      <img  alt={testimonial.name} className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1585842352667-39107fc979b9?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                     </div>
                     <div>
                       <p className="font-semibold">{testimonial.name}</p>

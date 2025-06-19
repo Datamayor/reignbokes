@@ -73,7 +73,7 @@ const PersonalGiftingPage = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="md:order-1"
           >
-            <img  alt="Person happily receiving a gift box" className="rounded-xl shadow-xl w-full h-auto object-cover" src="/public/images/personal gifting.png" />
+            <img  alt="Person happily receiving a gift box" className="rounded-xl shadow-xl w-full h-auto object-cover" src="https://plus.unsplash.com/premium_photo-1711226107481-54e74a609f53?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
           </motion.div>
         </div>
       </section>
