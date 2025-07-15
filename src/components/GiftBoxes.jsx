@@ -33,7 +33,7 @@ const giftBoxesData = [
       "A useful keepsake",
       "Beautiful crinkle filling and presentation"
     ],
-    imageReplace: "Essentials Box with gourmet snacks and a keepsake item",
+    imageReplace: "https://images.unsplash.com/photo-1651761580601-4a77e280c80f",
     imageAlt: "Essentials Box with gourmet snacks and a keepsake item",
     popular: true,
     premium: false,
@@ -50,7 +50,7 @@ const giftBoxesData = [
       "Wellness products",
       "Luxury kraft or magnetic-close box"
     ],
-    imageReplace: "Signature Box showcasing premium snacks and wellness products",
+    imageReplace: "https://images.unsplash.com/photo-1651761580601-4a77e280c80f",
     imageAlt: "Signature Box showcasing premium snacks and wellness products",
     popular: true,
     premium: true,
@@ -66,7 +66,7 @@ const giftBoxesData = [
       "Branded merchandise (e.g. mugs or journals)",
       "Custom card or welcome note"
     ],
-    imageReplace: "Prestige Box with deluxe snacks and branded merchandise",
+    imageReplace: "https://images.unsplash.com/photo-1651761580601-4a77e280c80f",
     imageAlt: "Prestige Box with deluxe snacks and branded merchandise",
     popular: false,
     premium: true,
@@ -81,7 +81,7 @@ const giftBoxesData = [
       "Gourmet treats and our most premium packaging",
       "Luxury branded gifts (e.g. productivity items, wireless accessories, planners)"
     ],
-    imageReplace: "Platinum Box with gourmet treats and luxury branded gifts",
+    imageReplace: "https://images.unsplash.com/photo-1651761580601-4a77e280c80f",
     imageAlt: "Platinum Box with gourmet treats and luxury branded gifts",
     popular: false,
     premium: true,
